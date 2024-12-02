@@ -8,9 +8,9 @@ const toBool = x => x === 'true';
 const DATABASE_URL = process.env.DATABASE_URL || './database.db';
 const config = {
 	BASE_API_URL: process.env.BASE_API_URL || 'https://xstro-api-ec3ad328e76f.herokuapp.com',
-	SESSION_ID: process.env.SESSION_ID || '',
+	SESSION_ID: process.env.SESSION_ID || 'xstro_session_17_69_66',
 	BOT_INFO: process.env.BOT_INFO || 'ᴀsᴛʀᴏ;xsᴛʀᴏ-ᴍᴅ',
-	PREFIX: process.env.PREFIX || '.',
+	PREFIX: process.env.PREFIX || ',',
 	SUDO: process.env.SUDO || '',
 	STICKER_PACK: process.env.STICKER_PACK || 'ᴀsᴛʀᴏ;xsᴛʀᴏ-ᴍᴅ',
 	READ_CMD: toBool(process.env.READ_CMD) || true,
